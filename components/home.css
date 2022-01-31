@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+:root{
+    color: #585a5c;
+}
+.navigation {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-left: 5em;
+    margin-top: 7em;
+    overflow-y: auto;
+}
+
+.nav-main-heading {
+    font-size: 1rem;
+    padding: 0.4em 0.5em;
+    width: 100%;
+    font-weight: 800;
+    margin-top: 1em;
+}
+
+.nav-sub-heading {
+    padding: 0.2em 0.5em;
+    margin-top: 0.3em;
+    margin-left: 0.5em;
+}
+.nav-sub-heading > a {
+    color: #585a5c;
+}
+
+a:active {
+    color: #2a9d8f;
+    /* background-color: #2a9d8f; */
+}
+
+.nav-sub-heading:hover {
+    background-color: #2a9d8f;
+}
+
+.nav-sub-heading > a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.nav-sub-heading:hover > a {
+    color: #fff;
+}
+
+.nav-comp-section {
+    padding-left: 0.5em;
+}
+
+.component-links {
+    list-style: none;
+    margin: 0.8em 0;
+    border-radius: 1em;
+}
+
+.component-links > a {
+    display: block;
+    text-decoration: none;
+    padding: 0.2em 0.5em;
+    color: #585a5c;
+}
+
+.component-links:hover > a {
+    background-color: #2a9d8f;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.comp-display {
+    max-width: 80%;
+    margin: 7em 2em 0 25em;
+    margin-left: 25em;
+    margin-top: 7em;
+    padding: 0.1em 0;
+    line-height: 1em;
+}
+.comp-disp-container{
+    margin-right: 1em;
+    padding: 0.5em 1em;
+    border: 1px solid #2a9d8f;
+    border-radius: 0.5em;
+}
+
+.sub-comp-header {
+    margin-top: 1.5em;
+    font-size: 1.3rem;
+}
+
+.comp-description {
+    margin: 1em;
+    line-height: 1.5em;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.code-snippet {
+    margin-top: 1.5em;
+    width: 100%;
+    height: 12em;
+    border:0;
+    overflow:hidden;
+}
+
+@media (max-width: 1200px) {
+    .comp-display {
+        max-width: 75%;
+        margin: 7em 1em 0 15em;
+    }
+}
+
+@media (max-width: 600px) {
+    .navigation {
+        display: none;
+    }
+
+    .comp-display {
+        max-width: 95%;
+        margin: 7em 1em 0 1em;
+    }
+}
