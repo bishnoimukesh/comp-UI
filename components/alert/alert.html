@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert</title>
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../home.css">
+    <link rel="stylesheet" href="./alert.css">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="shortcut icon" href="../../images/Comp-ui.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../day-night-mode/day-night.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header class="header">
+        <a href="../../index.html" class="brand-link">
+            <span class="brand">
+                <img src="../../images/Comp-ui.png" alt="Brand Logo" class="brand-logo" width="100em">
+                <span class="brand-title">Comp UI</span>
+            </span>
+        </a>
+        <div class="header-right">
+        <i class="fas fa-moon fa-2x toggle-icon" onclick="toggleView()"></i>
+        <a href="https://twitter.com/_mukeshbishnoi">
+            <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a class="github-repo" href="https://github.com/bishnoimukesh/">
+            <i class="fab fa-github fa-2x"></i>
+        </a>            
+    </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="nav-main-heading">Getting Started</div>
+
+        <div class="nav-sub-heading nav-getstarted">
+            <a href="../home.html">About</a>
+        </div>
+
+        <div class="nav-main-heading">Components</div>
+        <ul class="nav-comp-section">
+            <li class="component-links">
+                <a href="../alert/alert.html">Alert</a>
+            </li>
+            <li class="component-links">
+                <a href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="component-links">
+                <a href="../badge/badge.html">Badge</a>
+            </li>
+            <li class="component-links">
+                <a href="../button/button.html">Button</a>
+            </li>
+            <li class="component-links">
+                <a href="../card/card.html">Card</a>
+            </li>
+            <li class="component-links">
+                <a href="../chips/chips.html">Chips</a>
+            </li>
+            <li class="component-links">
+                <a href="../dialog/dialog.html">Dialog</a>
+            </li>
+            <li class="component-links">
+                <a href="../grid/grid.html">Grid</a>
+            </li>
+            <li class="component-links">
+                <a href="../image/image.html">Image</a>
+            </li>
+            <li class="component-links">
+                <a href="../input/input.html">Input</a>
+            </li>
+            <li class="component-links">
+                <a href="../list/list.html">List</a>
+            </li>
+            <li class="component-links">
+                <a href="../modal/modal.html">Modal</a>
+            </li>
+            <li class="component-links">
+                <a href="../navigation/navigation.html">Navigation</a>
+            </li>
+            <li class="component-links">
+                <a href="../rating/rating.html">Rating</a>
+            </li>
+            <li class="component-links">
+                <a href="../text-utilities/text-utilites.html">Text Utilites</a>
+            </li>
+            <li class="component-links">
+                <a href="../toast/toast.html">Toast</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="comp-display">
+        <h1 class="comp-disp-header">Alert</h1>
+
+        <p class="comp-description">
+            Alerts are available for any length of text, as well as an optional close button. 
+            For proper styling, use one of the required contextual classes (e.g., .alert-success).
+        </p>
+        <h2 class="sub-comp-header">Standard Alerts</h2>
+        <div class="comp-disp-container">
+            <div class="alert alert-success">A simple success alert.</div>
+            <div class="alert alert-danger">A simple danger alert.</div>
+            <div class="alert alert-warning">A simple warning alert.</div>
+            <div class="alert alert-info">A simple info alert.</div>
+        </div>
+        <p class="comp-description">
+            The alert component has four variants alert-success
+            alert-danger, alert-warning and alert-info.
+        </p>
+        <iframe class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=javascript&width=724&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253EA%2520simple%2520success%2520alert.%253C%252Fdiv%253E%2509%2509%2509%2509%2509%2509%2509%2509%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253EA%2520simple%2520danger%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253EA%2520simple%2520warning%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253EA%2520simple%2520info%2520alert.%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+
+        <h2 class="sub-comp-header">Outline Alerts</h2>
+        <div class="comp-disp-container">
+            <div class="alert alert-success-outline">A simple success alert.</div>
+            <div class="alert alert-danger-outline">A simple danger alert.</div>
+            <div class="alert alert-warning-outline">A simple warning alert.</div>
+            <div class="alert alert-info-outline">A simple info alert.</div>
+        </div>
+        <p class="comp-description">
+            The alert component has four variants alert-success
+            alert-danger, alert-warning and alert-info.
+        </p>
+        <iframe class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=javascript&width=724&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-success-outline%2522%253EA%2520simple%2520success%2520alert.%253C%252Fdiv%253E%2509%2509%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger-outline%2522%253EA%2520simple%2520danger%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning-outline%2522%253EA%2520simple%2520warning%2520alert.%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info-outline%2522%253EA%2520simple%2520info%2520alert.%253C%252Fdiv%253E%2509%2509%2509%2509%2509%2509%2509"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe> 
+        
+        <h2 class="sub-comp-header">Alerts with Icon</h2>
+        <div class="comp-disp-container">
+            <div class="alert alert-success icon-alert">
+                <i class="fas fa-check-circle "></i>
+                A simple success alert.
+            </div>
+            <div class="alert alert-danger icon-alert">
+                <i class="fas fa-exclamation-triangle"></i>
+                A simple danger alert.
+            </div>
+            <div class="alert alert-warning icon-alert">
+                <i class="fas fa-exclamation-triangle"></i>
+                A simple warning alert.
+            </div>
+            <div class="alert alert-info icon-alert">
+                <i class="fas fa-info"></i>
+                A simple info alert.
+            </div>
+        </div>
+        <p class="comp-description">
+            The alert component has four variants alert-success
+            alert-danger, alert-warning and alert-info.
+        </p>
+        <iframe class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=htmlmixed&width=724&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-success%2520icon-alert%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520A%2520simple%2520success%2520alert.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2520icon-alert%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520A%2520simple%2520danger%2520alert.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2520icon-alert%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520A%2520simple%2520warning%2520alert.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2520icon-alert%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520A%2520simple%2520info%2520alert.%250A%253C%252Fdiv%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </main>
+
+    <script src="../../day-night-mode/day-night.js"></script>
+</body>
+</html>
