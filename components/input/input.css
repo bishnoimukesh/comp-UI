@@ -1,0 +1,49 @@
+:root{
+    --primary-color: #000;
+    --success-color: #1f9225;
+    --error-color: #f00;
+    --warning-color: #e2e26d;
+}
+.input{
+    border-radius: 0.5em;
+    border: 2px solid none;
+    padding: 0.5em 1em;
+}
+
+.input-textbox{
+    padding: 0.5em 1em;
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5em;
+}
+
+.input-validator{
+    width: 100%;
+    position: relative;
+    border-radius: 0.5em;
+    border: 2px solid none;
+    padding: 0.5em 1em;
+}
+
+.input-success{
+    /* width: 35%; */
+    padding: 0.5em 1em;
+    background-color: transparent;
+    border: 2px solid var(--success-color);
+    border-radius: 0.5em;
+    color: var(--success-color);
+}
+.input-warn{
+    padding: 0.5em 1em;
+    background-color: transparent;
+    border: 2px solid var(--warning-color);
+    border-radius: 0.5em;
+    color: var(--warning-color);
+}
+.input-error{
+    padding: 0.5em 1em;
+    background-color: transparent;
+    border: 2px solid var(--error-color);
+    border-radius: 0.5em;
+    color: var(--error-color);
+}
