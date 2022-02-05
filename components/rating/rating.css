@@ -1,0 +1,17 @@
+.rating{
+    margin: 0.5em;
+    font-size:1.5em;
+    direction: rtl;
+    text-align: left;
+}
+.rating > span {
+    display: inline-flex;
+    position: relative;
+    width: 1.2em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+    color: var(--primary-color);
+}
