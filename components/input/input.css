@@ -26,7 +26,6 @@
 }
 
 .input-success{
-    /* width: 35%; */
     padding: 0.5em 1em;
     background-color: transparent;
     border: 2px solid var(--success-color);
