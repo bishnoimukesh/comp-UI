@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <link rel="shortcut icon" href="../../images/Comp-ui.png" type="image">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../home.css">
+    <link rel="stylesheet" href="./button.css">
+    <link rel="stylesheet" href="../../day-night-mode/day-night.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <a href="../../index.html" class="brand-link">
+            <span class="brand">
+                <img src="../../images/Comp-ui.png" alt="Brand Logo" class="brand-logo" width="100em">
+                <span class="brand-title">Comp UI</span>
+            </span>
+        </a>
+        <div class="header-right">
+        <i class="fas fa-moon fa-2x toggle-icon"></i>
+        <a href="https://twitter.com/_mukeshbishnoi">
+            <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a class="github-repo" href="https://github.com/bishnoimukesh/">
+            <i class="fab fa-github fa-2x"></i>
+        </a>            
+    </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="nav-main-heading">Getting Started</div>
+
+        <div class="nav-sub-heading nav-getstarted">
+            <a href="../home.html">About</a>
+        </div>
+
+        <div class="nav-main-heading">Components</div>
+        <ul class="nav-comp-section">
+            <li class="component-links">
+                <a href="../alert/alert.html">Alert</a>
+            </li>
+            <li class="component-links">
+                <a href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="component-links">
+                <a href="../badge/badge.html">Badge</a>
+            </li>
+            <li class="component-links">
+                <a href="../button/button.html">Button</a>
+            </li>
+            <li class="component-links">
+                <a href="../card/card.html">Card</a>
+            </li>
+            <li class="component-links">
+                <a href="../chips/chips.html">Chips</a>
+            </li>
+            <li class="component-links">
+                <a href="../dialog/dialog.html">Dialog</a>
+            </li>
+            <li class="component-links">
+                <a href="../grid/grid.html">Grid</a>
+            </li>
+            <li class="component-links">
+                <a href="../image/image.html">Image</a>
+            </li>
+            <li class="component-links">
+                <a href="../input/input.html">Input</a>
+            </li>
+            <li class="component-links">
+                <a href="../list/list.html">List</a>
+            </li>
+            <li class="component-links">
+                <a href="../modal/modal.html">Modal</a>
+            </li>
+            <li class="component-links">
+                <a href="../navigation/navigation.html">Navigation</a>
+            </li>
+            <li class="component-links">
+                <a href="../rating/rating.html">Rating</a>
+            </li>
+            <li class="component-links">
+                <a href="../slider/slider.html">Slider</a>
+            </li>
+            <li class="component-links">
+                <a href="../text-utilities/text-utilites.html">Text Utilites</a>
+            </li>
+            <li class="component-links">
+                <a href="../toast/toast.html">Toast</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="comp-display">   
+        <h1 class="comp-disp-header">Buttons</h1>
+        <p class="comp-description">
+            The Button, an essential part of any user experience. 
+            Buttons come in four basic styles in CompUI: The button 
+            element has flat color by default, whereas .btne has a simple button, 
+            .btn success-link gives link button, .btn-icon gives Icon buttons and 
+            .floating-btn gives floating biutton.
+        </p>
+        <h2 class="sub-comp-header">Solid Buttons</h2>
+        <div class="comp-disp-container">
+            <button class="btn success">Success</button>
+            <button class="btn info">Info</button>
+            <button class="btn warning">Warning</button>
+            <button class="btn danger">Danger</button>
+        </div>
+        <p class="comp-description">
+            The button component has four styles, each with its own semantic meaning. 
+            To use the button use .btn .success, .info , .warning and .danger.
+        </p>
+        <iframe class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=htmlmixed&width=724&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520info%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520danger%2522%253EDanger%253C%252Fbutton%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h2 class="sub-comp-header">Link Buttons</h2>
+        <div class="comp-disp-container">
+            <button class="btn success-link">Success</button>
+            <button class="btn info-link">Info</button>
+            <button class="btn warning-link">Warning</button>
+            <button class="btn danger-link">Danger</button>
+        </div>
+        <p class="comp-description">
+            The link button component has four styles, each with its own semantic meaning. 
+            To use the button use .btn .success-link, .info-link , .warning-link and .danger-link .
+        </p>
+        <iframe class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=htmlmixed&width=724&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520success-link%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520info-link%2522%253EInfo%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-link%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520danger-link%2522%253EDanger%253C%252Fbutton%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h2 class="sub-comp-header">Icon Buttons</h2>
+            <div class="comp-disp-container">
+                <button class="btn btn-icon success-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Add to cart</span>
+                </button>
+                <button class="btn btn-icon danger-icon">
+                    <i class="fas fa-trash"></i>
+                    <span>Delete</span>
+                </button>
+            </div>
+            <p class="comp-description">
+                The icon button component has different styles, each with its own semantic meaning. 
+                To use the button use .btn .btn-icon .success-icon and .danger-icon .
+            </p>
+            <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=htmlmixed&width=724&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520success-icon%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253EAdd%2520to%2520cart%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520danger-icon%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-trash%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%253EDelete%253C%252Fspan%253E%250A%253C%252Fbutton%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        
+        <h2 class="sub-comp-header">Floating Buttons</h2>
+        <div class="comp-disp-container">
+            <button class="floating-btn">
+                <i class="fas fa-plus"></i>
+            </button>
+            <button class="floating-btn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+        <p class="comp-description">
+            The button component has different styles, each with its own semantic meaning. 
+            To use the button use .floating-btn .
+        </p>
+        <iframe class="code-snippet"
+            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=twilight&wt=none&l=htmlmixed&width=724&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522floating-btn%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522floating-btn%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509%2509"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+    </main>
+    
+</body>
+</html>
