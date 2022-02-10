@@ -1,0 +1,37 @@
+:root{
+    --modal-background-color: #000;
+    --modal-text-color: #fff;
+    --model-content-background-color: #2a9d8f;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    padding-top: 10em;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    overflow: auto;
+    background-color: var(---modal-background-color);
+}
+
+.modal-content {
+    background-color: var(--model-content-background-color);
+    margin: auto;
+    padding: 3em;
+    border: 1px solid var(--modal-text-color);
+    width: 70%;
+    color: var(--modal-text-color);
+}  
+
+.close {
+    color: var(--modal-text-color);
+    float: right;
+    font-size: 1.5em;
+}
+
+.close:hover{
+    color: var(--modal-background-color);
+    cursor: pointer;
+}
