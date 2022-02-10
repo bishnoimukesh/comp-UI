@@ -1,0 +1,13 @@
+:root{
+    --grey-color: #999;
+
+.small-text {
+    font-size: 0.8em;
+}
+.grey-text {
+    color: var( --grey-color);
+}
+
+.centered-text{
+    text-align: center;
+}
