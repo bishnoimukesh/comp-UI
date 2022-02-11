@@ -30,14 +30,11 @@ a {
     align-items: center;
 }
 .search{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 2em;
+    height: 2.5em;
     border: 1px solid #2a9d8f;
-    border-radius: 0.2em;
+    border-radius: 0.5em;
     background-color: #f1f7f6;
-    font-size: 1em;
+    padding: 0 0.5em;
 }
 
 .icon-badge{
