@@ -12,7 +12,6 @@
 .avatar{
     position: relative;
     cursor: pointer;
-    z-index: -1;
 }
 .status{
     height: 3.5em;
@@ -36,7 +35,6 @@
 .icon-badge, .badge-btn, .text-badge{
     position: relative;
     cursor: pointer;
-    z-index: -1;
 }
 .icon-badge-img{
     cursor: pointer;
