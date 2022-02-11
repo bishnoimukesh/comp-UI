@@ -6,8 +6,8 @@
     --card-status-color : #807F7F;
 }
 .card-container {
-    max-width: 230px;
-    min-width: 220px;
+    max-width: 14.375em;
+    min-width: 13.75em;
     margin: 0 auto;
 }
 .card-img {
@@ -69,7 +69,7 @@ cursor: pointer;
 }
 
 .card-status{
-    font-size: 2rem;
+    font-size: 2em;
     color: var(--card-dark-color);
     border-radius: 0.1em;
     font-weight: bold;
@@ -87,8 +87,8 @@ cursor: pointer;
 
 .card-horizontal-container{
     display: flex;
-    max-width: 430px;
-    min-width: 220px;
+    max-width: 26.87em;
+    min-width: 13.75em;
     margin: 0 auto;
     border: 1px solid var(--card-border-color);
 
@@ -100,7 +100,7 @@ cursor: pointer;
     max-width: 50%;
     position: relative;
     background-color: var(--card-font-color);
-    padding: 4px;
+    padding: 0.25em;
     border-radius: 0.5em;
 }
 .card-horizontal-img{
