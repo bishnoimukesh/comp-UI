@@ -1,4 +1,7 @@
-.chip-conatiner{
+:root{
+  --chip-bg-color : #d1e7dd;
+}
+  .chip-conatiner{
   border-radius: 0.7em;
   display: flex;
   flex-wrap: wrap;
@@ -12,7 +15,7 @@
     font-size: 16px;
     line-height: 3em;
     border-radius: 1.5em;
-    background-color: #d1e7dd;
+    background-color: var(--chip-bg-color);
 }
 .chip img{
     float: left;
@@ -25,7 +28,7 @@
     font-size:1.5em;
     padding-left: 0.5em;
     cursor: pointer;
-    background-color:#d1e7dd;
+    background-color: var(--chip-bg-color);
 }
 .stacked-chip{
     width: max-content;
