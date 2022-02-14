@@ -1,12 +1,12 @@
 :root{
-    --chip-bg-color : #b4d6d2;
+    --dialog-bg-color : #b4d6d2;
     --font-color : #fff;
 }
 
 .dialog {
     width: 30%;
     height: max-content;
-    background-color: var(--chip-bg-color);
+    background-color: var(--dialog-bg-color);
     border: none;
     text-align: center;
   }
