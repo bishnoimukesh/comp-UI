@@ -1,0 +1,41 @@
+:root{
+  --chip-bg-color : #d1e7dd;
+}
+  .chip-conatiner{
+  border-radius: 0.7em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1.3em 0.8em;
+}
+.chip {
+    display: inline-flex;
+    padding: 0 1.5em;
+    height: 3em;
+    font-size: 16px;
+    line-height: 3em;
+    border-radius: 1.5em;
+    background-color: var(--chip-bg-color);
+}
+.chip img{
+    float: left;
+    margin: 0 0.7em 0 -1.5em;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+}
+.closebtn{
+    font-size:1.5em;
+    padding-left: 0.5em;
+    cursor: pointer;
+    background-color: var(--chip-bg-color);
+}
+.stacked-chip{
+    width: max-content;
+    margin: 0.5em 0;
+}
+.stacked{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5em;
+}
