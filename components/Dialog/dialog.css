@@ -1,7 +1,12 @@
+:root{
+    --chip-bg-color : #b4d6d2;
+    --font-color : #fff;
+}
+
 .dialog {
     width: 30%;
     height: max-content;
-    background-color: #b4d6d2;
+    background-color: var(--chip-bg-color);
     border: none;
     text-align: center;
   }
@@ -13,7 +18,7 @@
   border-radius: 1em;
   border: none;
   background-color: #2a9d8f;
-  color: #fff;
+  color: var(--font-color);
   cursor: pointer;
   align-items:baseline
 }
