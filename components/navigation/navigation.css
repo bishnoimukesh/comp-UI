@@ -1,9 +1,10 @@
 :root{
     --nav-primary-color: #2a9d8f;
-    --nav-bg-color : #cde9e6;
+    --nav-bg-color : #a9a9a9;
     --nav-text-color: #fff;
     --nav-badge-color: #ff0000;
 }
+
 .navbar-container {
     display: flex;
     background-color: var(--nav-secondary-color);
@@ -12,35 +13,76 @@
     justify-content: space-between;
     font-size: 1em;
     align-items: center;
-text-decoration: none;
+    text-decoration: none;
 }
+.nav{
+    padding: 0.5em 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand-logo{
+    height: 60px;
+}
+
 .navbar-link {
     display: flex;
 }
-.brand-logo {
-    margin-left: -2em;
+
+.navbar-brand, .nav-link{
+    color: var(--nav-primary-color);
 }
+
 .nav-item {
     list-style-type: none;
     padding: 0 0.6em;
     text-decoration: none;
 }
+
 a {
     text-decoration: none;
 }
-.navbar-brand, .nav-link{
-    color: var(--nav-primary-color);
-}
-.header-right{
+
+.nav-items{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
 .search{
-    height: 2.5em;
+    padding-right: 1em;
+}
+
+.search-box{
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     border: 1px solid var(--nav-primary-color);
-    border-radius: 0.5em;
-    background-color: var(--nav-bg-color);
-    padding: 0 0.5em;
+    background: none;
+    color: var(--nav-primary-color);
+    outline: none;
+}
+
+.search-box::placeholder{
+    color: var(--nav-bg-color);
+}
+
+.icon-badge-img{
+    color: var(--nav-primary-color);
+    font-size: 2em;
+}
+.icon-badge-count{
+    position: absolute;
+    top: -0.5em;
+    right: -0.9em;
+    background-color: var(--nav-badge-color);
+    color: var(--nav-text-color);
+    border-radius: 50%;
+    width: 1.8em;
+    height: 1.8em;
+    font-size: 0.5em;
+    text-align: center; 
 }
 
 .icon-badge{
@@ -51,16 +93,4 @@ a {
 .icon-badge-img{
     width: 1em;
     height: 1em;
-}
-.icon-badge-count {
-    position: absolute;
-    top: -0.5em;
-    right: -0.9em;
-    background-color: var(--nav-badge-color);
-    color: var(--nav-text-color);
-    border-radius: 50%;
-    width: 1.5em;
-    height: 1.5em;
-    font-size: 0.5em;
-    text-align: center; 
 }
