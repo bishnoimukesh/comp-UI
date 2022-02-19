@@ -9,49 +9,6 @@ combine to build responsive web interfaces.
 
 Insert gif or link to demo
 
-
-## Authors
-
-- [@mukeshbishnoi](https://www.github.com/bishnoimukesh)
-
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| CTA Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-
-
-## 🚀 About Me
-I'm a frontend developer and aspiring full stack developer
-
-
-## 🔗 Links
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_mukeshbishnoi)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bishnoimukesh/)
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://mukeshportfolio.netlify.app/)
-
-
-## 🛠 Skills
-Javascript, HTML, CSS, React
-
-
-## Lessons Learned 
-- How to arrange components
-- How to take care of class conflicts
-- How to reuse the same class
-- About the performance of the page
-
-
-![Logo](https://github.com/bishnoimukesh/comp-UI/blob/development/images/Comp-ui.png)
-
-
-## Optimizations
-
-- User interactive components
-- Easy to modify
-- East to access
-- Fast performance
-
 ## Tech Stack
 
 **Client:** HTML, CSS, JavaScript
@@ -79,6 +36,28 @@ Open project
 
 Start the server
 
+## Color Reference
+![Logo](https://github.com/bishnoimukesh/comp-UI/blob/development/images/Comp-ui.png)
+
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| CTA Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
+
+## Lessons Learned 
+- How to arrange components
+- How to take care of class conflicts
+- How to reuse the same class
+- About the performance of the page
+
+
+## Optimizations
+
+- User interactive components
+- Easy to modify
+- East to access
+- Fast performance
+
 
 
 ## Features
@@ -89,6 +68,21 @@ Start the server
 - Cross platform
 - Import single component
 
+## Authors
+- [@mukeshbishnoi](https://www.github.com/bishnoimukesh)
+
+## 🚀 About Me
+I'm a frontend developer and aspiring full stack developer
+
+
+## 🔗 Links
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/_mukeshbishnoi)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bishnoimukesh/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://mukeshportfolio.netlify.app/)
+
+
+## 🛠 Skills
+Javascript, HTML, CSS, React
 
 ## Feedback
 
