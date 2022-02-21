@@ -1,9 +1,6 @@
-:root{
-    --secondary-color: #e1f1ef;
-}
 .toast {
-    background-color: var(--secondary-color);
-    border-left: 10px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--font-color);
     padding: 0.1em 1em;
     border-radius: 0.6em;
 }
