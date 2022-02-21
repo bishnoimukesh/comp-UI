@@ -7,6 +7,7 @@
 .rating > span {
     display: inline-flex;
     position: relative;
+    z-index: -1;
     width: 1.2em;
 }
 .rating > span:hover:before,

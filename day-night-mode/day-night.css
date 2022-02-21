@@ -1,0 +1,22 @@
+.dark-mode {
+    background-color: var(--toggle-bg);
+    color: var(--font-color) ;
+    transition: all 0.2s ease-in-out;
+}
+
+.dark-mode > header{
+    background-color: var(--toggle-bg);
+    color: var(--font-color) ;
+    transition: all 0.2s ease-in-out;
+}
+
+.dark-mode > .navigation a{
+    color: white ;
+    background-color: var(--toggle-bg);
+    transition: all 0.2s ease-in-out;
+}
+.dark-mode > .navigation {
+    background-color: var(--toggle-bg);
+}
+
+

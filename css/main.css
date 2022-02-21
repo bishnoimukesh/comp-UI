@@ -48,3 +48,11 @@
     text-align: center;
     margin-top: 3rem;
 }
+
+@media (max-width: 420px){
+    .main-start,
+    .main-github {
+        height: 3em;
+        width: 8em;
+    }
+}

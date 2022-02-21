@@ -5,73 +5,37 @@
 }
 :root{
     color: #585a5c;
-}
-.navigation {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    margin-left: 5em;
-    margin-top: 7em;
-    overflow-y: auto;
+    --secondary-color: #585a5c;
 }
 
 .nav-main-heading {
     font-size: 1rem;
-    padding: 0.4em 0.5em;
     width: 100%;
     font-weight: 800;
     margin-top: 1em;
 }
 
-.nav-sub-heading {
-    padding: 0.2em 0.5em;
-    margin-top: 0.3em;
-    margin-left: 0.5em;
-}
-.nav-sub-heading > a {
-    color: #585a5c;
-}
-
 a:active {
-    color: #2a9d8f;
-    /* background-color: #2a9d8f; */
-}
-
-.nav-sub-heading:hover {
-    background-color: #2a9d8f;
-}
-
-.nav-sub-heading > a {
-    display: block;
-    width: 100%;
-    text-decoration: none;
-}
-
-.nav-sub-heading:hover > a {
-    color: #fff;
+    color: var(--primary-color);
 }
 
 .nav-comp-section {
-    padding-left: 0.5em;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
-.component-links {
-    list-style: none;
-    margin: 0.8em 0;
-    border-radius: 1em;
+a{
+    padding: 0.5em 0.5em;
+    color: var(--secondary-color);
+}
+.active{
+    color: var(--primary-color);
 }
 
-.component-links > a {
-    display: block;
-    text-decoration: none;
-    padding: 0.2em 0.5em;
-    color: #585a5c;
-}
-
-.component-links:hover > a {
-    background-color: #2a9d8f;
-    color: #fff;
-    transition: 0.6s;
+a:hover {
+    color: var(--primary-color);
+    transition: 0.5s;
 }
 
 .comp-display {
@@ -85,7 +49,7 @@ a:active {
 .comp-disp-container{
     margin-right: 1em;
     padding: 0.5em 1em;
-    border: 1px solid #2a9d8f;
+    border: 1px solid var(--primary-color);
     border-radius: 0.5em;
 }
 
@@ -116,10 +80,6 @@ a:active {
 }
 
 @media (max-width: 600px) {
-    .navigation {
-        display: none;
-    }
-
     .comp-display {
         max-width: 95%;
         margin: 7em 1em 0 1em;
