@@ -1,6 +1,7 @@
 .toast {
     background-color: var(--primary-color);
     color: var(--font-color);
+    border-left: 10px solid var(--toggle-bg);
     padding: 0.1em 1em;
     border-radius: 0.6em;
 }
