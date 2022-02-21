@@ -6,8 +6,7 @@ ready-to-use frontend components that you can easily
 combine to build responsive web interfaces. 
 
 ## Demo
-
-Insert gif or link to demo
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/37878172/155025145-dbbeed80-91b8-44e0-9ebc-70090a6fc848.gif)
 
 ## Tech Stack
 
