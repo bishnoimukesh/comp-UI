@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9b436619-500d-49e5-869b-4bea590e4eb1/deploy-status)](https://app.netlify.com/sites/comp-ui/deploys)
 
 # Comp UI
 
