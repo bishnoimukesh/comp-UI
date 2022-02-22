@@ -11,6 +11,5 @@ openMenu.addEventListener("click",()=>{
 closeMenu.addEventListener("click",()=>{
     closeMenu.style.display = "none"
     openMenu.style.display = "inline-block"
-    mainMenu.style.left = '-50%';
-    mainMenu.style.display = "inline-block";
+    mainMenu.style.left = ''
 })
