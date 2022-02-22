@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../../day-night-mode/day-night.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body onload="onload()">
+<body>
     <header class="header">
         <a href="../../index.html" class="brand-link">
             <span class="brand">
@@ -21,7 +21,10 @@
             </span>
         </a>
     <div class="header-right">
-        <i class="fas fa-moon fa-2x toggle-icon"></i>
+        <button class="btn-toggle">
+            <i class="fas fa-moon fa-2x" id="dark-mode"></i>
+            <i class="fas fa-solid fa-sun fa-2x" id="light-mode"></i>
+        </button>
         <a href="https://twitter.com/_mukeshbishnoi">
             <i class="fab fa-twitter fa-2x"></i>
         </a>
