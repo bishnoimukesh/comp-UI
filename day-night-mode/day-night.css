@@ -16,6 +16,9 @@
 .dark-mode > .navigation a{
     color: white ;
 } 
+.dark-mode > .navigation .active {
+    color: var(--primary-color);
+} 
 .dark-mode > .navigation {
     background-color: var(--toggle-bg);
     color: var(--font-color);
