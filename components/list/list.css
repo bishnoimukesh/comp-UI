@@ -13,3 +13,17 @@
     display: block;
     margin-bottom: 0.5em;
 }
+
+.stacked-img{
+    margin: 0em 1em;
+    width: 3em;
+    height: 3em;
+}
+
+.list-stacked{
+    display: flex;
+    align-items: center;
+    vertical-align: top;
+    margin-right: 1em;
+    border: 2px solid #ccc;
+}
